@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"
+  name="viewport"
+  content = "width= device-width,
+  initial-scale= 1.0"
+  >
   <title> Portfolio Gallery </title>
    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
    <link rel="stylesheet" href="personal-website_style-sheet.css">
@@ -10,7 +14,7 @@
 <body>
 <!-- NAV -->
   <nav>
-    <ul>
+    <ul class="gallery">
        <li><a href="home.html">About</a></li>
 
         <li><a href="college-portfolio.html">College Portfolio</a></li>
@@ -21,16 +25,20 @@
 
 <!-- MAIN -->
 <main>
+  <div class="imageTitle">
+   <h2>Cold Mountain Illustration</h2>
+  </div>
+
   <div class="largeImage">
     <img src= artwork/large-images/cold-mountain-illustration.jpg
     alt="Cold Mountain Watercolor">
   </div>
-<div class="imageDescription">
-	<h2>Cold Mountain Illustration</h2>
-	<p> Created in the Spring of 2016</p>
-	<p> This is part of a series of paintings accompanied by quote analyses of excerpts from Charles Frazier's novel <i>Cold Mountain.</i> The collection was made as part of the <i>One Book. One Philadelphia</i> program which is run by the Free Library of Philadelphia, and helps promote literacy throughout the city.</p>
-	<p> The painting was made using watercolor.</p>
-</div>
+
+  <div class="imageDescription">
+  	<p> Created in the Spring of 2016</p>
+  	<p> This is part of a series of paintings accompanied by quote analyses of excerpts from Charles Frazier's novel <i>Cold Mountain.</i> The collection was made as part of the <i>One Book. One Philadelphia</i> program which is run by the Free Library of Philadelphia, and helps promote literacy throughout the city.</p>
+  	<p> The painting was made using watercolor.</p>
+  </div>
 </main>
 
 <!-- FOOTER -->
